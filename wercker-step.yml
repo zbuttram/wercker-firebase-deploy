@@ -1,0 +1,9 @@
+name: wercker-firebase-deploy
+version: 0.1.0
+description: Deploys static site build to Firebase
+keywords:
+  - firebase
+properties:
+  token:
+    type: string
+    required: true
